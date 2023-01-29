@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Librarybooks.Classes
 {
+    
     public class NonFictionDepart : GenreDept
     {
         private List<NonFiction> _nonFictionBooks = new();

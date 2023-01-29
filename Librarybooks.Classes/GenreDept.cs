@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Librarybooks.Classes
 {
-    //Composition: The department is made up of books
+    //Aggregation: The department is made up of books
     public abstract class GenreDept
     {
         private List<Book> _books = new();

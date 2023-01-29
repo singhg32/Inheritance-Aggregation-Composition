@@ -8,6 +8,8 @@
         protected string _genre;
         protected bool _borrowed;
         protected int _currentPage;
+        protected Page _titlePage;
+        private Page[] _pages;
 
         //properties
         public int Pages { get; set; }
