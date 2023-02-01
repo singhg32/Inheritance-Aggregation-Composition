@@ -3,7 +3,6 @@
     public abstract class Book
     {
         //fields
-        protected int _pages;
         protected string _title;
         protected string _genre;
         protected bool _borrowed;
@@ -56,4 +55,13 @@
         }
 
     }
+    
+    //composition; a book is made of a list of pages
+    public class Page
+    {
+        protected int wordcount;
+        protected int pagenumber;
+    }
 }
+
+
